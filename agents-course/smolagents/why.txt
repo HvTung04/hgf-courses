@@ -1,0 +1,19 @@
+- lightweight and minimal solution
+- experiment quickly with out complex configs
+- application logic is straightforward
+
+output is code not json -> can be executed directly
+
+Agents in smolagents operate as multi-step agents
+Each MultiStepAgent performs:
+- one thought
+- one tool call and execution
+
+CodeAgent is primary type of agent but also supports ToolCallingAgent (write tool calls in JSON)
+
+Model integration:
+- TransformersModel
+- InferenceClientModel
+- LiteLMModel
+- OpenAIServerModel
+- AzureOpenAIServerModel
